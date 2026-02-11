@@ -1,0 +1,5 @@
+__pycache__/
+db.sqlite3
+.edu_env/
+*.pyc
+.env/
