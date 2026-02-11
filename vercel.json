@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "edu_verse/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "edu_verse/wsgi.py"
+        }
+    ]
+}
